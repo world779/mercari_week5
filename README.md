@@ -1,34 +1,54 @@
 # MyBlog
-vue.js、vuerify、firebaseを用いてブログのようなサイトを作成しました。
+I create a blog system in JavaScript(Node.js).
 
-firebaseのdatabaseを使って、リアルタイムにデータの出し入れをすることができます。
-
-## 作成した機能
-* 投稿機能
-* 編集機能
-* 削除機能
-* 一覧ページ
-* 詳細ページ
+Using vue.js, vuerify, firebase(database, hosting, authentication).
 
 
-## デモ
-#### 投稿機能
+### Create that:
+
+* Respond with all blog pages
+* Respond with data for a blog page
+* Handle creation of a blog page
+* Handle editing of a blog page
+* Handle deletion of a blog page
+
+### Store data
+* Use Firebase Database
+
+### Authentication for my blog system
+* Use firebase Authentication
+* email + password
+
+### Unit test
+* Use Jest
+* Still being worked on...;
+
+## Deploy
+[here](https://my-blog-7c08b.web.app/) (firebase hosting)
+
+
+## Demo
+#### Post
 ![image](img/image1.gif)
 
 
-#### 編集機能
+#### Edit
 ![image](img/image2.gif)
 
 
-#### 削除機能
+#### Delete
 ![image](img/image3.gif)
 
-### 苦労したところ
-投稿の編集をする際に、始めはどの投稿の編集ボタンを押しても最後に投稿されたモノしか編集ができなかった。
-そこで、@click.stopと関数を用いた値の受け渡しを行うことで、1つ1つの投稿に対応した編集機能を作成することができた。
+## Authentication
+Change the display depending on whether you are logged in or not.
 
-### サイト 
-デプロイしたサイトは[こちら](https://my-blog-7c08b.web.app/) 
+<b>Not logged in...</b>
+
+![image](img/image4.PNG)
+
+<b>Logged in...</b>
+
+![image](img/image5.PNG)
 
 
 
