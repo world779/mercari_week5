@@ -9,6 +9,7 @@
 
 <script>
   import Header from "./components/Header"
+  import Component from '@/App'
 
   export default {
     name: 'App',
